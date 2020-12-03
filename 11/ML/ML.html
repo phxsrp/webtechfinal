@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>What is Machine Learning? | Emerj</title>
+	<meta name="author" content="Daniel Faggella">
+	<link rel="stylesheet" type="text/css" href="ml-style.css">
+</head>
+<body>
+<div class="page-wrapper">
+	<section class="intro" id="iot-intro">
+		<header>
+			<h1>Comprehensive Overview</h1>
+			<h2>What is Machine Learning?</h2>		
+		</header>
+		<div class="summary" id="iot-summary">
+			<p>“Machine Learning is the science of getting computers to learn and act like humans do, and improve their learning over time in autonomous fashion, by feeding them data and information in the form of observations and real-world interactions.”</p>
+			<p>The above definition encapsulates the ideal objective or ultimate aim of machine learning, as expressed by many researchers in the field. The purpose of this article is to provide a business-minded reader with expert perspective on how machine learning is defined, and how it works. <a href="https://emerj.com/ai-executive-guides/difference-artificial-intelligence-machine-learning/">Machine learning and artificial intelligence</a> share the same definition in the minds of many however, there are some distinct differences readers should recognize as well. References and related researcher interviews are included at the end of this article for further digging.</p>
+		</div>
+
+		<div class="concepts" id="ml-concepts">
+			<h3>Machine Learning Basic Concepts</h3>
+			<p>There are many different types of machine learning algorithms, with hundreds published each day, and they’re typically grouped by either learning style (i.e. supervised learning, unsupervised learning, semi-supervised learning) or by similarity in form or function (i.e. classification, regression, decision tree, clustering, deep learning, etc.). Regardless of learning style or function, all combinations of <a href="http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf">machine learning algorithms consist of</a> the following:</p>
+
+			<ul>
+				<li><em>Representation</em> (a set of classifiers or the language that a computer understands)</li>
+				<li><em>Evaluation</em> (aka objective/scoring function)</li>
+				<li><em>Optimization</em> (search method; often the highest-scoring classifier, for example; there are both off-the-shelf and custom optimization methods used)</li>
+			</ul>
+		</div>
+	</section>
+
+	<div class="main supporting" id="ml-supporting">
+		<div class="explanation" id="ml-explanation"> 
+			<h3>How We Get Machines to Learn</h3>
+			<p>There are different approaches to getting machines to learn, from using basic decision trees to clustering to layers of artificial neural networks (the latter of which has given way to deep learning), depending on what task you’re trying to accomplish and the type and amount of data that you have available. This dynamic sees itself played out in applications as varying as medical diagnostics or self-driving <a href="https://emerj.com/ai-glossary-terms/what-is-artificial-intelligence-an-informed-definition/">cars</a>.</p>
+
+			<p>While emphasis is often placed on choosing the best learning algorithm, researchers have found that some of the most interesting questions arise out of none of the available machine learning algorithms performing to par. Most of the time this is a problem with training data, but this also occurs when <a href="http://www.aaai.org/ojs/index.php/aimagazine/article/view/2367/2272">working with machine learning in new domains</a>.</p>
+
+			<p>Research done when working on real applications often drives progress in the field, and reasons are twofold: 1. Tendency to discover boundaries and limitations of existing methods 2. Researchers and developers working with domain experts and leveraging time and expertise to improve system performance.</p>
+		</div>
+
+		<div class="challenges" id="ml-challenges">
+			<h3>Challenges and Limitations</h3>	
+			<p>“Machine learning can’t get something from nothing…what it does is get more from less.” – Dr. Pedro Domingo, University of Washington</p>
+
+			<p>The two biggest, historical (and ongoing) problems in machine learning have involved overfitting (in which the model exhibits bias towards the training data and does not generalize to new data, and/or variance i.e. learns random things when trained on new data) and dimensionality (algorithms with more features work in higher/multiple dimensions, making understanding the data more difficult). Having access to a large enough data set has in some cases also been a primary problem.</p>
+
+			<p>One of the most common mistakes among machine learning beginners is testing training data successfully and having the illusion of success; Domingo (and others) emphasize the importance of keeping some of the data set separate when testing models, and only using that reserved data to test a chosen model, followed by learning on the whole data set.</p>
+
+			<p>When a learning algorithm (i.e. learner) is not working, often the quicker path to success is to feed the machine more data, the availability of which is by now well-known as a primary driver of progress in machine and deep learning algorithms in recent years; however, this can lead to issues with scalability, in which we have more data but time to learn that data remains an issue.</p>
+
+			<p>In terms of purpose, machine learning is not an end or a solution in and of itself. Furthermore, attempting to use it as a blanket solution i.e. “BLANK” is not a useful exercise; instead, coming to the table with a problem or objective is often best driven by a more specific question – “BLANK”.</p>
+		</div>
+
+
+		<div class="deeplearning" id="ml-deep-learning">
+			<h3>Deep Learning and Modern Developments in Neural Networks</h3>
+
+			<p>Deep learning involves the study and design of machine algorithms for learning good representation of data at multiple levels of abstraction (ways of arranging computer systems). Recent publicity of deep learning through DeepMind, Facebook, and other institutions has highlighted it as the “next frontier” of machine learning.</p>
+
+			<p>The International Conference on Machine Learning (ICML) is widely regarded as one of the most important in the world. This year’s took place in June in New York City, and it brought together researchers from all over the world who are working on addressing the current challenges in deep learning:</p>
+
+			<p>
+				<ul>
+					<li>Unsupervised learning in small data sets</li>
+					<li>Simulation-based learning and transferability to the real world</li>
+				</ul>
+			</p>
+
+			<p>Deep-learning systems have made great gains over the past decade in domains like bject detection and recognition, text-to-speech, information retrieval and others. Research is now focused on developing data-efficient machine learning i.e. deep learning systems that can learn more efficiently, with the same performance in less time and with less data, in cutting-edge domains like personalized healthcare, robot reinforcement learning, sentiment analysis, and others.</p>
+		</div>
+
+		<div class="applying" id="ml-applying">
+			<h3>Key Takeaways in Applying Machine Learning</h3>
+
+			<p>Below is a selection of best-practices and concepts of applying machine learning that we’ve collated from our interviews for out podcast series, and from select sources cited at the end of this article. We hope that some of these principles will clarify how ML is used, and how to avoid some of the common pitfalls that companies and researchers might be vulnerable to in starting off on an ML-related project.</p>
+
+			<p>
+				<ul>
+					<li>Arguably the most important factor in successful machine learning projects is the features used to describe the data (which are domain-specific), and having adequate data to train your models in the first place</li>
+					<li>Most of the time when algorithms don’t perform well, it’s due a to a problem with the training data (i.e. insufficient amounts/skewed data; noisy data; or insufficient features describing the data for making decisions</li>
+					<li>“Simplicity does not imply accuracy” – there is (according to Domingo) no given connection between number of parameters of a model and tendency to overfit</li>
+					<li>Obtaining experimental data (as opposed to observational data, over which we have no control) should be done if possible (for example, data gleaned from sending different variations of an email to a random audience sampling)</li>
+					<li>Whether or not we label data causal or correlative, the more important point is to predict the effects of our actions</li>
+					<li>Always set aside a portion of your training data set for cross validation; you want your chosen classifier or learning algorithm to perform well on fresh data</li>
+				</ul>
+			</p>
+		</div>
+
+		<footer>
+	        <a href="https://en.wikipedia.org/wiki/Machine_learning"  title="Machine Learning">Machine Learning</a>
+	        <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" title="Artificial Intelligence">Artificial Intelligence</a>
+	        <a href="https://en.wikipedia.org/wiki/Deep_learning"  title="Deep Learining">Deep Learning</a>
+	    </footer>
+	</div>
+</div>
+</body>
+</html>
